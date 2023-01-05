@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>東海商圈</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/index.css">
+</head>
+<body>
+    <input type="checkbox" name="open_box" id="open_box">
+    <label for="open_box" class="open_btn block">
+        <span class="span1"></span>
+        <span class="span2"></span>
+        <span class="span3"></span>
+    </label>
+    <label for="open_box" class="bac_close"></label>
+    <nav class="block">
+        <ul>
+            <li>
+                <a href="./index.html">主頁</a>
+            </li>
+            <li>
+                <a href="./component/search.html">搜尋</a>
+            </li>
+            <li>
+                <a href="./component/favorite.html">我的最愛</a>
+            </li>
+            <li>
+                <a href="">相機拍攝</a>
+            </li>
+            <li>
+                <a href="./component/nearby.html">附近店家</a>
+            </li>
+        </ul>
+    </nav>
+    <div class="main_content">
+        <h1>
+            <a href="index.html">
+                東海商圈
+            </a>
+        </h1>
+        <div class="login">
+            <a href="./component/login.html" class="btn">
+                登入google
+                <span class="moveBtn moveBtn1"></span>
+                <span class="moveBtn moveBtn2"></span>
+                <span class="moveBtn moveBtn3"></span>
+                <span class="moveBtn moveBtn4"></span>
+            </a>
+            <a href="javascript:;" class="btn">
+                遊客
+                <span class="moveBtn moveBtn1"></span>
+                <span class="moveBtn moveBtn2"></span>
+                <span class="moveBtn moveBtn3"></span>
+                <span class="moveBtn moveBtn4"></span>
+            </a>
+        </div>
+    </div>
+</body>
+</html>
+Footer
+© 2023 GitHub, Inc.
+Footer navigation
+Terms
+Privacy
