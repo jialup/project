@@ -1,0 +1,26 @@
+h1{
+    margin-bottom: 30px;
+    color: var(--font_blue);
+}
+h2{
+    font-size: 30px;
+    margin-bottom: 40px;
+    color: var(--font_blue);
+}
+.nearby li{
+    margin-bottom: 30px;
+    padding: 30px 50px;
+    background-color: var(--font_light_blue);
+}
+.nearby li a{
+    text-decoration: none;
+    color: #666;
+}
+.nearby li .fa{
+    margin-left: 10px;
+}
+
+/* 有加like標籤的會變亮愛心可以當作店有開 */
+.fa.like{
+    color: #f70;
+}
