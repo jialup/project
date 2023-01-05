@@ -1,0 +1,34 @@
+h1{
+    margin-bottom: 50px;
+}
+label{
+    margin-bottom: 70px;
+    display: flex;
+    justify-content: center;
+}
+label input{
+    outline: none;
+    border: none;
+    border-bottom: 1px solid;
+    font-size: 30px;
+    color: var(--font_orange);
+}
+label .fa{
+    font-size: 30px;
+    text-align: right;
+    cursor: pointer;
+    color: var(--font_orange);
+    transition: color .3s;
+}
+label .fa:hover{
+    color: var(--font_blue);
+}
+.search a{
+    margin-bottom: 40px;
+    padding: 30px 40px;
+    display: block;
+    text-decoration: none;
+    font-size: 30px;
+    color: var(--font_blue);
+    background-color: var(--font_orange);
+}
