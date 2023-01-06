@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>東海商圈</title>
+    <title>商品展示</title>
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/index.css">
 </head>
@@ -18,49 +18,47 @@
     <nav class="block">
         <ul>
             <li>
-                <a href="./index.html">主頁</a>
+                <a href="./index.html">選擇市場</a>
             </li>
             <li>
-                <a href="./component/search.html">搜尋</a>
-            </li>
-            <li>
-                <a href="./component/favorite.html">我的最愛</a>
-            </li>
-            <li>
-                <a href="">相機拍攝</a>
-            </li>
-            <li>
-                <a href="./component/nearby.html">附近店家</a>
+                <a href="./component/search.html">選擇地區</a>
             </li>
         </ul>
     </nav>
     <div class="main_content">
         <h1>
             <a href="index.html">
-                東海商圈
+                       商場
             </a>
         </h1>
         <div class="login">
+        <li>
             <a href="./component/login.html" class="btn">
-                登入google
+                google登入
                 <span class="moveBtn moveBtn1"></span>
                 <span class="moveBtn moveBtn2"></span>
                 <span class="moveBtn moveBtn3"></span>
                 <span class="moveBtn moveBtn4"></span>
+        </li>
+        <li>
+            <a href="./component/login.html" class="btn">
+                yahoo登入
+                <span class="moveBtn moveBtn1"></span>
+                <span class="moveBtn moveBtn2"></span>
+                <span class="moveBtn moveBtn3"></span>
+                <span class="moveBtn moveBtn4"></span>    
+        </li> 
+        <li>
             </a>
-            <a href="javascript:;" class="btn">
+            <a href="./component/login.html" class="btn">
                 遊客
                 <span class="moveBtn moveBtn1"></span>
                 <span class="moveBtn moveBtn2"></span>
                 <span class="moveBtn moveBtn3"></span>
                 <span class="moveBtn moveBtn4"></span>
             </a>
+        </li>
         </div>
     </div>
 </body>
 </html>
-Footer
-© 2023 GitHub, Inc.
-Footer navigation
-Terms
-Privacy
